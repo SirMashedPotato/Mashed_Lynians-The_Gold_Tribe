@@ -3,7 +3,7 @@
 	<!-- ==========[Mashed_Lynian_RangedWeapon_GajalakaThrowingKnife]========== -->
 	<ThingDef ParentName="Mashed_Lynian_RangedWeapon_GajalakaThrowingKnifeBase">
 		<defName>Mashed_Lynian_RangedWeapon_GajalakaGoldThrowingKnife</defName>
-		<label>Gajalaka golden throwing knife</label>
+		<label>gold tribe Gajalaka throwing knife</label>
 		<description>A primitive throwing knife chiselled from stone, and coated in an excessive amount of gold, typically used by Gajalaka that worship The Mother Goddess of Gold. Specially designed for Lynians, the edge is surprisingly sharp, and cleaves through armour with relative ease.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/Mashed_Lynians/WeaponRanged/Mashed_Gajalaka_GoldTribeThrowingKnife</texPath>
@@ -23,6 +23,9 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
+			<researchPrerequisites Inherit="False">
+				<li>Mashed_Lynian_LynianGoldWorking</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<verbs Inherit="False">
 			<li>
@@ -51,7 +54,7 @@
 	</ThingDef>
 	<ThingDef ParentName="Mashed_Lynian_RangedWeapon_GajalakaThrowingKnife_ThrownBase">
 		<defName>Mashed_Lynian_RangedWeapon_GajalakaGoldThrowingKnife_Thrown</defName>
-		<label>Gajalaka golden throwing knife</label>
+		<label>gold tribe Gajalaka throwing knife</label>
 		<projectile>
 			<damageAmountBase>12</damageAmountBase>
 		</projectile>

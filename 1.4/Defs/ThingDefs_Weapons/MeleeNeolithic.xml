@@ -3,7 +3,7 @@
 	<!-- ==========[Mashed_Lynian_MeleeWeapon_GajalakaGoldSword]========== -->
 	<ThingDef ParentName="Mashed_Lynian_MeleeWeapon_GajalakaSwordBase">
 		<defName>Mashed_Lynian_MeleeWeapon_GajalakaGoldSword</defName>
-		<label>Gajalaka golden sword</label>
+		<label>gold tribe Gajalaka sword</label>
 		<description>A primitive sword chiselled from stone, and coated in an excessive amount of gold, typically used by Gajalaka that worship The Mother Goddess of Gold. Specially designed for Lynians, the edge is surprisingly sharp, and cleaves through armour with relative ease.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/Mashed_Lynians/WeaponMelee/Mashed_Gajalaka_GoldTribeSword</texPath>
@@ -22,6 +22,9 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
+			<researchPrerequisites Inherit="False">
+				<li>Mashed_Lynian_LynianGoldWorking</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<tools Inherit="False">
 			<li>

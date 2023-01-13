@@ -3,7 +3,7 @@
 	<!-- ==========[Mashed_Lynian_Apparel_GajalakaGoldMask]========== -->
 	<ThingDef ParentName="Mashed_Lynian_Apparel_HeadgearDyeableBase">
 		<defName>Mashed_Lynian_Apparel_GajalakaGoldMask</defName>
-		<label>Gajalaka golden mask</label>
+		<label>gold tribe Gajalaka mask</label>
 		<description>A sturdy stone mask, covered in an excessive amount of gold, typically worn by Gajalaka that worship The Mother Goddess of Gold. Specially designed for Lynians, the terrifying visage can make unsteady hands falter.\n\nAccents on the mask are often painted various colours.</description>
 		<modExtensions>
 			<li Class="Mashed_Lynians.ApparelProperties">
@@ -22,6 +22,9 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
+			<researchPrerequisites Inherit="False">
+				<li>Mashed_Lynian_LynianGoldWorking</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<costStuffCount>35</costStuffCount>
 		<stuffCategories>
