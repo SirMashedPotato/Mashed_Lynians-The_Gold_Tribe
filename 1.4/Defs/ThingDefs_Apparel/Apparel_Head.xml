@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Lynian_Apparel_GajalakaGoldMask]========== -->
+	<ThingDef ParentName="Mashed_Lynian_Apparel_HeadgearDyeableBase">
+		<defName>Mashed_Lynian_Apparel_GajalakaGoldMask</defName>
+		<label>Gajalaka golden mask</label>
+		<description>A sturdy stone mask, covered in an excessive amount of gold, typically worn by Gajalaka that worship The Mother Goddess of Gold. Specially designed for Lynians, the terrifying visage can make unsteady hands falter.\n\nAccents on the mask are often painted various colours.</description>
+		<modExtensions>
+			<li Class="Mashed_Lynians.ApparelProperties">
+				<isGajalakaMask>true</isGajalakaMask>
+				<isGoldenGajalakaMask>true</isGoldenGajalakaMask>
+				<overrideColour>true</overrideColour>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Mashed_Lynians/Mashed_GajalakaGoldTribeArmour/Mashed_GajalakaGoldMask_Item</texPath>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<uiIconScale>1.15</uiIconScale>
+		<recipeMaker>
+			<researchPrerequisite>Mashed_Lynian_GajalakaEquipment</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costList>
+			<Gold>3</Gold>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>3.0</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeDodgeChance>0.08</MeleeDodgeChance>
+			<MoveSpeed>-0.05</MoveSpeed>
+			<CertaintyLossFactor Mayrequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Mashed_Lynians/Mashed_GajalakaGoldTribeArmour/Mashed_GajalakaGoldMask</wornGraphicPath>
+			<layers>
+				<li>EyeCover</li>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Mashed_Lynian_GajalakaGoldTribal</li>
+			</tags>
+		</apparel>
+		<tradeTags>
+			<li>Mashed_Lynian_GajalakaGoldTribe</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

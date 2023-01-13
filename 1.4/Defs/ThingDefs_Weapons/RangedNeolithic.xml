@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Lynian_RangedWeapon_GajalakaThrowingKnife]========== -->
+	<ThingDef ParentName="Mashed_Lynian_RangedWeapon_GajalakaThrowingKnifeBase">
+		<defName>Mashed_Lynian_RangedWeapon_GajalakaGoldThrowingKnife</defName>
+		<label>Gajalaka golden throwing knife</label>
+		<description>A primitive throwing knife chiselled from stone, and coated in an excessive amount of gold, typically used by Gajalaka that worship The Mother Goddess of Gold. Specially designed for Lynians, the edge is surprisingly sharp, and cleaves through armour with relative ease.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Lynians/WeaponRanged/Mashed_Gajalaka_GoldTribeThrowingKnife</texPath>
+		</graphicData>
+		<costList>
+			<Gold>1</Gold>
+		</costList>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>1.5</Mass>
+		</statBases>
+		<weaponTags Inherit="False">
+			<li>Mashed_Lynian_GajalakaGoldTribalRanged</li>
+			<li>Mashed_Lynian_GajalakaGoldTribalThrowingKnife</li>
+		</weaponTags>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs Inherit="False">
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Mashed_Lynian_RangedWeapon_GajalakaGoldThrowingKnife_Thrown</defaultProjectile>
+				<warmupTime>1</warmupTime>
+				<range>10.9</range>
+				<soundCast>Interact_BeatFire</soundCast>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<tools Inherit="False">
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+		</tools>
+		<tradeTags Inherit="False">
+			<li>Mashed_Lynian_GajalakaGoldTribe</li>
+		</tradeTags>
+	</ThingDef>
+	<ThingDef ParentName="Mashed_Lynian_RangedWeapon_GajalakaThrowingKnife_ThrownBase">
+		<defName>Mashed_Lynian_RangedWeapon_GajalakaGoldThrowingKnife_Thrown</defName>
+		<label>Gajalaka golden throwing knife</label>
+		<projectile>
+			<damageAmountBase>12</damageAmountBase>
+		</projectile>
+	</ThingDef>
+</Defs>

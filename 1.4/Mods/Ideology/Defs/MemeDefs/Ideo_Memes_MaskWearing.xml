@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Gajalaka]==========-->
+	<MemeDef ParentName="Mashed_Lynian_MaskWearingMeme_Base">
+		<defName>Mashed_Lynian_MaskWearingMeme_GajalakaGold</defName>
+		<label>gold Gajalaka mask wearing</label>
+		<iconPath>UI/Memes/Mashed_MaskWearingMeme_GajalakaGold</iconPath>
+		<impact>2</impact>
+		<requireOne>
+			<li>
+				<li>Mashed_Lynian_MaskWearing_GajalakaGold_Compulsory</li>
+				<li>Mashed_Lynian_MaskWearing_GajalakaGold_Necessary</li>
+				<li>Mashed_Lynian_MaskWearing_GajalakaGold_Preferred</li>
+				<li>Mashed_Lynian_MaskWearing_GajalakaGold_Appreciated</li>
+				<li>Mashed_Lynian_MaskWearing_GajalakaGold_Loved</li>
+				<li>Mashed_Lynian_MaskWearing_GajalakaGold_Exalted</li>
+			</li>
+		</requireOne>
+	</MemeDef>
+</Defs>
