@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Lynian_Apparel_BoaboaCoat]========== -->
+	<ThingDef ParentName="Mashed_Lynian_Apparel_BodyBase">
+		<defName>Mashed_Lynian_Apparel_GajalakaGoldCoat</defName>
+		<label>gold tribe Gajalaka coat</label>
+		<description>A heavy coat made of gold shards, typically worn by Gajalaka that worship The Mother Goddess of Gold. Rather protective, especially against heat, the design evokes the image of The Mother Goddess.</description>
+		<recipeMaker>
+			<researchPrerequisite>Mashed_Lynian_LynianGoldWorking</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Mashed_Lynians/Mashed_GajalakaGoldTribeArmour/Mashed_GajalakaGoldCoat_Item</texPath>
+		</graphicData>
+		<costList>
+			<Gold>8</Gold>
+		</costList>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>8.0</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.8</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<CertaintyLossFactor Mayrequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
+			<MoveSpeed>-0.6</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Mashed_Lynians/Mashed_GajalakaGoldTribeArmour/Mashed_GajalakaGoldCoat</wornGraphicPath>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Mashed_Lynian_GajalakaGoldTribal</li>
+			</tags>
+		</apparel>
+		<tradeTags>
+			<li>Mashed_Lynian_GajalakaGoldTribe</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

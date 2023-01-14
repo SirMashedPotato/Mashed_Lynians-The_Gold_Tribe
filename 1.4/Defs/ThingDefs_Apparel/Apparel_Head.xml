@@ -18,13 +18,10 @@
 		</graphicData>
 		<uiIconScale>1.15</uiIconScale>
 		<recipeMaker>
-			<researchPrerequisite>Mashed_Lynian_GajalakaEquipment</researchPrerequisite>
+			<researchPrerequisite>Mashed_Lynian_LynianGoldWorking</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-			<researchPrerequisites Inherit="False">
-				<li>Mashed_Lynian_LynianGoldWorking</li>
-			</researchPrerequisites>
 		</recipeMaker>
 		<costStuffCount>35</costStuffCount>
 		<stuffCategories>
@@ -37,7 +34,7 @@
 			<WorkToMake>4500</WorkToMake>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>3.0</Mass>
-			<Flammability>0.4</Flammability>
+			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.6</ArmorRating_Heat>

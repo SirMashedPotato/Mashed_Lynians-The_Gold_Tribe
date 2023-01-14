@@ -22,6 +22,7 @@
 		<gearHealthRange>0.5~1.1</gearHealthRange>
 		<apparelRequired Inherit="False">
 			<li>Mashed_Lynian_Apparel_GajalakaGoldMask</li>
+			<li>Mashed_Lynian_Apparel_GajalakaGoldCoat</li>
 			<li>Mashed_Lynian_Apparel_GajalakaCoat</li>
 		</apparelRequired>
 		<weaponTags Inherit="False">
@@ -49,29 +50,33 @@
 			<li>Mashed_Lynian_Apparel_GajalakaGoldMask</li>
 			<li>Mashed_Lynian_Apparel_GajalakaCoat</li>
 		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>Mashed_Lynian_GajalakaGoldTribalDestructiveSpecial</li>
+		</weaponTags>
 	</PawnKindDef>
 	<!-- ==========[Advanced, Chief]========== -->
 	<PawnKindDef ParentName="Mashed_Lynian_GajalakaChiefMeleeKind">
 		<defName>Mashed_Lynian_GajalakaChiefMelee_GoldTribe</defName>
 		<defaultFactionType>Mashed_Lynian_NonPlayerGajalakaGoldTribe</defaultFactionType>
-		<itemQuality>Normal</itemQuality>
-		<gearHealthRange>0.5~1.1</gearHealthRange>
 		<apparelRequired Inherit="False">
 			<li>Mashed_Lynian_Apparel_GajalakaGoldMask</li>
+			<li>Mashed_Lynian_Apparel_GajalakaGoldCoat</li>
 			<li>Mashed_Lynian_Apparel_GajalakaCoat</li>
 		</apparelRequired>
 		<weaponTags Inherit="False">
-			<li>Mashed_Lynian_GajalakaGoldTribal</li>
+			<li>Mashed_Lynian_GajalakaGoldTribalAdvanced</li>
 		</weaponTags>
 	</PawnKindDef>
 	<PawnKindDef ParentName="Mashed_Lynian_GajalakaChiefRangedKind">
 		<defName>Mashed_Lynian_GajalakaChiefRanged_GoldTribe</defName>
 		<defaultFactionType>Mashed_Lynian_NonPlayerGajalakaGoldTribe</defaultFactionType>
-		<itemQuality>Normal</itemQuality>
-		<gearHealthRange>0.5~1.1</gearHealthRange>
 		<apparelRequired Inherit="False">
 			<li>Mashed_Lynian_Apparel_GajalakaGoldMask</li>
+			<li>Mashed_Lynian_Apparel_GajalakaGoldCoat</li>
 			<li>Mashed_Lynian_Apparel_GajalakaCoat</li>
 		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>Mashed_Lynian_GajalakaGoldTribalDestructiveSpecial</li>
+		</weaponTags>
 	</PawnKindDef>
 </Defs>
