@@ -3,7 +3,7 @@
 	<!-- ==========[Mashed_Lynian_RangedWeapon_GajalakaGoldCannon]========== -->
 	<ThingDef ParentName="Mashed_Lynian_Weapon_ExplosiveBase">
 		<defName>Mashed_Lynian_RangedWeapon_GajalakaGoldCannon</defName>
-		<label>Mother Goddesses' fury</label>
+		<label>gold tribe Gajalaka hand cannon</label>
 		<description>An ornate Gajalaka hand cannon, designed to evoke the Mother Goddesses fury, typically used by Gajalaka that worship The Mother Goddess of Gold. The barrel can only fire a limited number of rockets before it is completely unusable.</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
