@@ -30,7 +30,7 @@
 			<EquipDelay>2.5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<CertaintyLossFactor Mayrequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
+			<CertaintyLossFactor Mayrequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
 			<MoveSpeed>-0.6</MoveSpeed>
 		</equippedStatOffsets>
 		<apparel>

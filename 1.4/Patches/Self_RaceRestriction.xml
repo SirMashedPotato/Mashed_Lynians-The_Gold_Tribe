@@ -5,6 +5,7 @@
 		<value>
 			<li>Mashed_Lynian_Apparel_GajalakaGoldMask</li>
 			<li>Mashed_Lynian_Apparel_GajalakaGoldCoat</li>
+			<li>Mashed_Lynian_Apparel_GajalakaGoldPack</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Lynian_Apparel_GajalakaGoldPack]========== -->
+	<ThingDef ParentName="Mashed_Lynian_Apparel_PackBase">
+		<defName>Mashed_Lynian_Apparel_GajalakaGoldPack</defName>
+		<label>gold tribe Gajalaka pack</label>
+		<description>A primitive pack containing an excessive amount of gold, typically worn by Gajalaka that worship The Mother Goddess of Gold. There should still be some room in there to carry stuff.</description>
+		<modExtensions>
+			<li Class="Mashed_Lynians.ApparelProperties">
+				<carryWeightIncrease>10</carryWeightIncrease>
+			</li>
+		</modExtensions>
+		<recipeMaker>
+			<researchPrerequisite>Mashed_Lynian_LynianGoldWorking</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.05</MoveSpeed>
+			<CertaintyLossFactor Mayrequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
+			<CarryingCapacity>10</CarryingCapacity>
+		</equippedStatOffsets>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Gold>5</Gold>
+		</costList>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Mashed_Lynians/Mashed_GajalakaGoldTribeArmour/Mashed_GoldTribePack_Item</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Mashed_Lynians/Mashed_GajalakaGoldTribeArmour/Mashed_GoldTribePack</wornGraphicPath>
+			<tags>
+				<li>Mashed_Lynian_GajalakaGoldTribe</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicData Inherit="False">
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData>
+		</apparel>
+		<tradeTags>
+			<li>Mashed_Lynian_GajalakaGoldTribe</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>
