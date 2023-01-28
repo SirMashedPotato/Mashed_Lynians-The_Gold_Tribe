@@ -21,11 +21,6 @@
 			<CertaintyLossFactor Mayrequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
 			<CarryingCapacity>10</CarryingCapacity>
 		</equippedStatOffsets>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-		<costStuffCount>20</costStuffCount>
 		<costList>
 			<Gold>5</Gold>
 		</costList>
