@@ -18,7 +18,7 @@
 		</recipeMaker>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
-			<CertaintyLossFactor Mayrequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
+			<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
 			<CarryingCapacity>10</CarryingCapacity>
 		</equippedStatOffsets>
 		<costList>
