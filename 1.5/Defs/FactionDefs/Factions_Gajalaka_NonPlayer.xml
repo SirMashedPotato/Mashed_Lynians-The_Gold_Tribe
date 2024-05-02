@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<FactionDef ParentName="Mashed_Lynian_NonPlayerGajalakaTribeBase">
+		<defName>Mashed_Lynian_NonPlayerGajalakaGoldTribe</defName>
+		<label>golden Gajalaka tribe</label>
+		<description>A small Gajalaka tribe that worships The Mother Goddess of Gold. Known to utilise superior equipment, much of which is coated in copious amounts of gold. Most feared is their highly modified hand cannons.\n\nSavage even by Gajalaka standards, they do not take kindly to outsiders... or really anyone that gets in their way; you will not be able to ally with them!</description>
+		<earliestRaidDays>40</earliestRaidDays>
+		<permanentEnemy>true</permanentEnemy>
+		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
+		<colorSpectrum Inherit="False">
+			<li>(1, 0.8, 0.2)</li>
+			<li>(0.9, 0.9, 0.4)</li>
+		</colorSpectrum>
+		<factionNameMaker>Mashed_Lynian_NamerFactionGajalakaGoldTribe</factionNameMaker>
+		<settlementNameMaker>Mashed_Lynian_NamerSettlementGajalakaGoldTribe</settlementNameMaker>
+		<raidLootMaker>Mashed_Lynian_GajalakaGoldTribeRaidLootMaker</raidLootMaker>
+		<requiredMemes Inherit="False">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Mashed_Lynian_MaskWearingMeme</li>
+		</requiredMemes>
+		<pawnGroupMakers Inherit="False">
+			<li>
+				<!-- Normal fights, ranged with melee mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Mashed_Lynian_GajalakaGatherer_GoldTribe>10</Mashed_Lynian_GajalakaGatherer_GoldTribe>
+					<Mashed_Lynian_GajalakaWarrior_GoldTribe>10</Mashed_Lynian_GajalakaWarrior_GoldTribe>
+					<Mashed_Lynian_GajalakaGunner_GoldTribe>5</Mashed_Lynian_GajalakaGunner_GoldTribe>
+					<Mashed_Lynian_GajalakaChiefRanged_GoldTribe>3</Mashed_Lynian_GajalakaChiefRanged_GoldTribe>
+					<Mashed_Lynian_GajalakaChiefMelee_GoldTribe>1.5</Mashed_Lynian_GajalakaChiefMelee_GoldTribe>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, ranged only -->
+				<kindDef>Combat</kindDef>
+				<commonality>60</commonality>
+				<options>
+					<Mashed_Lynian_GajalakaGatherer_GoldTribe>15</Mashed_Lynian_GajalakaGatherer_GoldTribe>
+					<Mashed_Lynian_GajalakaGunner_GoldTribe>5</Mashed_Lynian_GajalakaGunner_GoldTribe>
+					<Mashed_Lynian_GajalakaChiefRanged_GoldTribe>5</Mashed_Lynian_GajalakaChiefRanged_GoldTribe>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, melee only -->
+				<kindDef>Combat</kindDef>
+				<commonality>60</commonality>
+				<options>
+					<Mashed_Lynian_GajalakaGatherer_GoldTribe>5</Mashed_Lynian_GajalakaGatherer_GoldTribe>
+					<Mashed_Lynian_GajalakaWarrior_GoldTribe>10</Mashed_Lynian_GajalakaWarrior_GoldTribe>
+					<Mashed_Lynian_GajalakaChiefMelee_GoldTribe>5</Mashed_Lynian_GajalakaChiefMelee_GoldTribe>
+				</options>
+			</li>
+			<li>
+				<!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<Mashed_Lynian_GajalakaGatherer_GoldTribe>5</Mashed_Lynian_GajalakaGatherer_GoldTribe>
+					<Mashed_Lynian_GajalakaWarrior_GoldTribe>5</Mashed_Lynian_GajalakaWarrior_GoldTribe>
+					<Mashed_Lynian_GajalakaGunner_GoldTribe>5</Mashed_Lynian_GajalakaGunner_GoldTribe>
+					<Mashed_Lynian_GajalakaChiefRanged_GoldTribe>3</Mashed_Lynian_GajalakaChiefRanged_GoldTribe>
+					<Mashed_Lynian_GajalakaChiefMelee_GoldTribe>1.5</Mashed_Lynian_GajalakaChiefMelee_GoldTribe>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Mashed_Lynian_GajalakaWarrior_GoldTribe>7</Mashed_Lynian_GajalakaWarrior_GoldTribe>
+					<Mashed_Lynian_GajalakaGatherer_GoldTribe>5</Mashed_Lynian_GajalakaGatherer_GoldTribe>
+					<Mashed_Lynian_GajalakaGunner_GoldTribe>5</Mashed_Lynian_GajalakaGunner_GoldTribe>
+					<Mashed_Lynian_GajalakaChiefRanged_GoldTribe>10</Mashed_Lynian_GajalakaChiefRanged_GoldTribe>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement_RangedOnly</kindDef>
+				<options>
+					<Mashed_Lynian_GajalakaGatherer_GoldTribe>10</Mashed_Lynian_GajalakaGatherer_GoldTribe>
+					<Mashed_Lynian_GajalakaGunner_GoldTribe>5</Mashed_Lynian_GajalakaGunner_GoldTribe>
+					<Mashed_Lynian_GajalakaChiefRanged_GoldTribe>10</Mashed_Lynian_GajalakaChiefRanged_GoldTribe>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Mashed_Lynian_GajalakaGatherer_GoldTribe>2</Mashed_Lynian_GajalakaGatherer_GoldTribe>
+					<Mashed_Lynian_GajalakaWarrior_GoldTribe>1</Mashed_Lynian_GajalakaWarrior_GoldTribe>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Mashed_Lynian_GajalakaGatherer_GoldTribe>2</Mashed_Lynian_GajalakaGatherer_GoldTribe>
+					<Mashed_Lynian_GajalakaWarrior_GoldTribe>1</Mashed_Lynian_GajalakaWarrior_GoldTribe>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Mashed_Lynian_GajalakaGatherer_GoldTribe>1</Mashed_Lynian_GajalakaGatherer_GoldTribe>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Mashed_Lynian_GajalakaGatherer_GoldTribe>1</Mashed_Lynian_GajalakaGatherer_GoldTribe>
+				</options>
+			</li>
+		</pawnGroupMakers>
+	</FactionDef>
+	<!-- ==========[Gold Tribe Loot Maker]==========-->
+	<ThingSetMakerDef>
+		<defName>Mashed_Lynian_GajalakaGoldTribeRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_GoldOre</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+</Defs>

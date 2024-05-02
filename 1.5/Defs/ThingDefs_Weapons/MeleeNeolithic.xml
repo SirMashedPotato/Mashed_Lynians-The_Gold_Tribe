@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Lynian_MeleeWeapon_GajalakaGoldSword]========== -->
+	<ThingDef ParentName="Mashed_Lynian_MeleeWeapon_GajalakaSwordBase">
+		<defName>Mashed_Lynian_MeleeWeapon_GajalakaGoldSword</defName>
+		<label>gold tribe sword</label>
+		<description>A primitive sword chiselled from stone, and coated in an excessive amount of gold, typically used by Gajalaka that worship The Mother Goddess of Gold. Specially designed for Lynians, the edge is surprisingly sharp, and cleaves through armour with relative ease.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Lynians/WeaponMelee/Mashed_Gajalaka_GoldTribeSword</texPath>
+		</graphicData>
+		<weaponTags Inherit="False">
+			<li>Mashed_Lynian_GajalakaGoldTribal</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>1.5</Mass>
+		</statBases>
+		<costList>
+			<Gold>3</Gold>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>Mashed_Lynian_LynianGoldWorking</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<tools Inherit="False">
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>20</power>	<!-- high because stone is shite -->
+				<armorPenetration>0.25</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<tradeTags Inherit="False">
+			<li>Mashed_Lynian_GajalakaGoldTribe</li>
+		</tradeTags>
+	</ThingDef>
+	<!-- ==========[Mashed_Lynian_MeleeWeapon_AcornClub]========== -->
+	<ThingDef ParentName="Mashed_Lynian_Weapon_TribalMeleeBase">
+		<defName>Mashed_Lynian_MeleeWeapon_GajalakaGoldClaw</defName>
+		<label>gold tribe claw</label>
+		<description>An enormous 'claw' of solid gold, melded around a primitive stone handle, typically used by the chiefs of Gajalaka that worship The Mother Goddess of Gold.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Mashed_Lynians/WeaponMelee/Mashed_Gajalaka_GoldTribeClaw</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1.1</uiIconScale>
+		<weaponTags>
+			<li>Mashed_Lynian_GajalakaGoldTribalAdvanced</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>3500</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costList>
+			<Gold>4</Gold>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>Mashed_Lynian_LynianGoldWorking</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+					<li>Stab</li>
+				</capacities>
+				<power>26</power> <!-- high because stone is shite -->
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+		</tools>
+		<tradeTags Inherit="False">
+			<li>Mashed_Lynian_GajalakaGoldTribe</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

@@ -6,4 +6,8 @@
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>
 		<li IfModActive="vanillaexpanded.achievements">1.4/Mods/VE_Achievements</li>
 	</v1.4>
+	<v1.5>
+		<li>Common</li>
+		<li>1.5</li>
+	</v1.5>
 </loadFolders>

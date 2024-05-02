@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Row 3]========== -->
+	<!-- ==========[Lynian Gold Working]========== -->
+	<ResearchProjectDef ParentName="Mashed_Lynians_ResearchBase">
+		<defName>Mashed_Lynian_LynianGoldWorking</defName>
+		<label>gajalaka gold working</label>
+		<description>Learn how to work gold the Gajalaka way, unlocking various items and equipment commonly used by Gajalaka tribes that worship The Mother Goddess of Gold.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>Mashed_Lynian_GajalakaEquipment</li>
+		</prerequisites>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>race->Gajalaka</li>
+				<li>subject->Gajalaka gold working methods</li>
+				<li>observation(uses=1)->could sometimes be seen dancing around flaming effigies of their deity</li>
+				<li>observation(uses=1)->seemed to have an intense love of explosives</li>
+				<li>observation(uses=1)->would wear masks that seemed designed to hide their face</li>
+				<li>observation(uses=1)->would sculpt clay into intricately designed masks, and then coat it in gold</li>
+				<li>observation(uses=1)->would wear masks that seemed to be designed to evoke the visage of some deity or undiscovered creature</li>
+				<li>observation(uses=1)->would wear coats of golden scales, seemingly to evoke the image of their deity</li>
+				<li>observation(uses=1)->could be seen collecting shards of gold in packs</li>
+				<li>observation(uses=1)->would sit in groups while covering their weapons in molten gold</li>
+				<li>observation(uses=1)->would craft somewhat primitive swords out of stone, and then cover it in gold</li>
+				<li>observation(uses=1)->would craft somewhat primitive throwing knives out of stone, and then cover them in gold</li>
+				<li>observation(uses=1)->could sometimes be seen wielding some strange type of war pick, which is coated in gold</li>
+				<li>observation(uses=1)->would make advanced hand cannons, and then coat in in molten gold</li>
+				<li>subject_gerund->gold tribe equipment</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+</Defs>
