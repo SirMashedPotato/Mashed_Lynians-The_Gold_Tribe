@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="Mashed_Lynian_BasePawn_Alien"]/alienRace/raceRestriction/apparelList</xpath>
+		<value>
+			<li>Mashed_Lynian_Apparel_GajalakaGoldMask</li>
+			<li>Mashed_Lynian_Apparel_GajalakaGoldCoat</li>
+			<li>Mashed_Lynian_Apparel_GajalakaGoldPack</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="Mashed_Lynian_BasePawn_Alien"]/alienRace/raceRestriction/weaponList</xpath>
+		<value>
+			<li>Mashed_Lynian_MeleeWeapon_GajalakaGoldSword</li>
+			<li>Mashed_Lynian_MeleeWeapon_GajalakaGoldClaw</li>
+			<li>Mashed_Lynian_RangedWeapon_GajalakaGoldThrowingKnife</li>
+			<li>Mashed_Lynian_RangedWeapon_GajalakaGoldCannon</li>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Gold Tribe faction namer]==========-->
+	<RulePackDef>
+		<defName>Mashed_Lynian_NamerFactionGajalakaGoldTribe</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[GoldTribe_a] of the [GoldTribe_b] Mother</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>GoldTribe_a->Mashed_Lynians/Lynians_GajalakaFactionNames_GoldTribe_a</li>
+				<li>GoldTribe_b->Mashed_Lynians/Lynians_GajalakaSettlementNames_GoldTribe_a</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ==========[gold Tribe settlement namer]==========-->
+	<RulePackDef>
+		<defName>Mashed_Lynian_NamerSettlementGajalakaGoldTribe</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->the [GoldTribe_a] [GoldTribe_b]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>GoldTribe_a->Mashed_Lynians/Lynians_GajalakaSettlementNames_GoldTribe_a</li>
+				<li>GoldTribe_b->Mashed_Lynians/Lynians_GajalakaSettlementNames_GoldTribe_b</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+</Defs>

@@ -13,4 +13,10 @@
 		<li IfModActive="vanillaexpanded.achievements">Mods/VE_AchievementsTextures</li>
 		<li IfModActive="vanillaexpanded.achievements">1.5/Mods/VE_Achievements</li>
 	</v1.5>
+	<v1.6>
+		<li>Common</li>
+		<li>1.6</li>
+		<li IfModActive="vanillaexpanded.achievements">Mods/VE_AchievementsTextures</li>
+		<li IfModActive="vanillaexpanded.achievements">1.5/Mods/VE_Achievements</li>
+	</v1.6>
 </loadFolders>

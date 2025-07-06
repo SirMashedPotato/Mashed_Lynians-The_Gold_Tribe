@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Crafting]========== -->
+	<AchievementsExpanded.AchievementDef ParentName="Mashed_AchievementLynians_Base">
+		<defName>Mashed_AchievementLynians_GoldTribeHandCannon</defName>
+		<label>Hear Her Roar</label>
+		<description>Craft a legendary quality Gold Tribe Hand Cannon</description>
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>Mashed_Lynian_RangedWeapon_GajalakaGoldCannon</def>
+			<quality>Legendary</quality>
+			<count>1</count>
+		</tracker>
+		<texPath>Achievements/Mashed_AchievementLynians_GoldTribeHandCannon</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	<!-- ==========[Slaying]========== -->
+	<AchievementsExpanded.AchievementDef ParentName="Mashed_AchievementLynians_Base">
+		<defName>Mashed_AchievementLynians_GoldTribeDefeated_First</defName>
+		<label>Gold Tribe Hunter</label>
+		<description>Defeat 50 members of a golden Gajalaka tribe</description>
+		<tracker Class="AchievementsExpanded.KillTracker">
+			<factionDefs>
+				<li>Mashed_Lynian_NonPlayerGajalakaGoldTribe</li>
+			</factionDefs>
+			<count>50</count>
+		</tracker>
+		<texPath>Achievements/Mashed_AchievementLynians_GoldTribeDefeated_First</texPath>
+		<points>15</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef ParentName="Mashed_AchievementLynians_Base">
+		<defName>Mashed_AchievementLynians_GoldTribeDefeated_Second</defName>
+		<label>Gold Tribe Slayer</label>
+		<description>Defeat 100 members of a golden Gajalaka tribe</description>
+		<tracker Class="AchievementsExpanded.KillTracker">
+			<factionDefs>
+				<li>Mashed_Lynian_NonPlayerGajalakaGoldTribe</li>
+			</factionDefs>
+			<count>100</count>
+		</tracker>
+		<texPath>Achievements/Mashed_AchievementLynians_GoldTribeDefeated_Second</texPath>
+		<points>20</points>
+	</AchievementsExpanded.AchievementDef>
+	<AchievementsExpanded.AchievementDef ParentName="Mashed_AchievementLynians_Base">
+		<defName>Mashed_AchievementLynians_GoldTribeDefeated_Third</defName>
+		<label>Gold Tribe Exterminator</label>
+		<description>Defeat 200 members of a golden Gajalaka tribe</description>
+		<tracker Class="AchievementsExpanded.KillTracker">
+			<factionDefs>
+				<li>Mashed_Lynian_NonPlayerGajalakaGoldTribe</li>
+			</factionDefs>
+			<count>200</count>
+		</tracker>
+		<texPath>Achievements/Mashed_AchievementLynians_GoldTribeDefeated_Third</texPath>
+		<points>35</points>
+	</AchievementsExpanded.AchievementDef>
+</Defs>
